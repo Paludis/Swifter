@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "72E8AEF8201D0465EAD5BE5475E77330EA7EC0CD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "72E8AEF8201D0465EAD5BE5475E77330EA7EC0CD" : 0,
+    "1921C35BA00500C7BD9F0CFDCB6B237D8347DC29" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9BB5489-8C6B-490A-8475-A2FA64EBAD4E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "72E8AEF8201D0465EAD5BE5475E77330EA7EC0CD" : "Swifter",
+    "1921C35BA00500C7BD9F0CFDCB6B237D8347DC29" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Swifter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Swifter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/tattva\/interest-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1921C35BA00500C7BD9F0CFDCB6B237D8347DC29"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mattdonnelly\/Swifter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72E8AEF8201D0465EAD5BE5475E77330EA7EC0CD"
+    }
+  ]
+}
