@@ -61,7 +61,7 @@ public extension Swifter {
                 })
 
             let authorizeURL = NSURL(string: "/oauth/authorize", relativeToURL: self.apiURL)
-            let queryURL = NSURL(string: authorizeURL!.absoluteString + "?oauth_token=\(token!.key)")
+            let queryURL = NSURL(string: authorizeURL!.absoluteString! + "?oauth_token=\(token!.key)")
 
             #if os(iOS)
                 UIApplication.sharedApplication().openURL(queryURL!)

@@ -167,7 +167,7 @@ internal class SwifterOAuthClient: SwifterClientProtocol  {
         let parameterString = parameterComponents.joinWithSeparator("&")
         let encodedParameterString = parameterString.urlEncodedStringWithEncoding(self.dataEncoding)
 
-        let encodedURL = url.absoluteString.urlEncodedStringWithEncoding(self.dataEncoding)
+        let encodedURL = url.absoluteString!.urlEncodedStringWithEncoding(self.dataEncoding)
 
         let signatureBaseString = "\(method)&\(encodedURL)&\(encodedParameterString)"
 

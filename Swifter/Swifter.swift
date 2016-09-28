@@ -117,7 +117,7 @@ public class Swifter {
             do {
                 let jsonResult = try JSON.parseJSONData(data)
                 downloadProgress?(json: jsonResult, response: response)
-            } catch var error2 as NSError {
+            } catch let error2 as NSError {
                 error = error2
                 let jsonString = NSString(data: data, encoding: NSUTF8StringEncoding)
                 let jsonChunks = jsonString!.componentsSeparatedByString("\r\n") 
@@ -134,7 +134,7 @@ public class Swifter {
                         if let downloadProgress = downloadProgress {
                             downloadProgress(json: jsonResult, response: response)
                         }
-                    } catch var error1 as NSError {
+                    } catch let error1 as NSError {
                         error = error1
                     } catch {
                         fatalError()
@@ -157,7 +157,7 @@ public class Swifter {
                             success(json: jsonResult, response: response)
                         }
                     }
-                } catch var error1 as NSError {
+                } catch let error1 as NSError {
                     error = error1
                     dispatch_async(dispatch_get_main_queue()) {
                         if let failure = failure {
